@@ -1,31 +1,11 @@
-Заметки о конкретных переменных
+My experiments with LinearRegression and RandomForestRegressor. 
+Still in the process.
 
-Комнаты (Rooms): Количество комнат
+LinearRegression results:
 
-Цена (Price): Цена в долларах
+<img src="https://github.com/StuLolka/melbourne-housing-price-prediction/blob/main/Screenshots/LR1.png">
 
-Метод (Method): S — продано имущество; SP — продано имущество ранее; PI — передано имущество; PN — продано ранее, информация не разглашается; SN — продано, информация не разглашается; NB — ставка отсутствует; VB — ставка продавца; W — отозвано до аукциона; SA — продано после аукциона; SS — продано после аукциона, цена не разглашается. N/A — цена или максимальная ставка не известны.
 
-Тип(Type): br - спальня(и); h - дом, коттедж, вилла, полу- терраса; u - блок, дуплекс; t - таунхаус; dev site - участок под застройку; o res - другое жилое помещение.
+RandomForestRegressor results:
 
-Продавец (SellerG): Агент по недвижимости
-
-Дата (Date): Дата продажи
-
-Расстояние (Distance): Расстояние от центрального делового района
-
-Название региона (Regionname): Общий регион (Запад, Северо-Запад, Север, Северо-Восток и т.д.)
-
-Propertycount: Количество объектов недвижимости, существующих в пригороде.
-
-Спальня2 (Bedroom2 ): Вырезанное количество спален (из другого источника)
-
-Ванная комната (Bathroom): Количество ванных комнат
-
-Автомобиль (Car): Количество машиномест
-
-Размер земли (Landsize): Размер земли
-
-BuildingArea: Размер здания
-
-CouncilArea: Управляющий совет области
+<img src="https://github.com/StuLolka/melbourne-housing-price-prediction/blob/main/Screenshots/LR1.png">
